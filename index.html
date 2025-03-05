@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Dinámico de Hamburguesas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Menú Dinámico de Hamburguesas</h1>
+
+    <div class="form-container">
+        <h2>Agregar Nueva Opción al Menú</h2>
+        <form id="addMenuForm">
+            <input type="text" id="nombre" placeholder="Nombre de la hamburguesa" required>
+            <input type="number" id="precio" placeholder="Precio" step="0.01" required>
+            <button type="submit">Agregar</button>
+        </form>
+    </div>
+
+    <div id="menu" class="menu-container"></div>
+
+    <footer>
+        <p>Contáctanos: <strong>+803 456 1789</strong></p>
+        <p>Ubicación: Calle el sol 12, Santo Domingo, República Dominicana</p>
+        <p>&copy; 2025 Hamburguesería del Sabor. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

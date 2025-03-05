@@ -1,0 +1,5 @@
+[
+    { "nombre": "Clásica", "descripcion": "Carne, queso y tomate", "precio": "5.99", "imagen": "images/clasica.jpg" },
+    { "nombre": "Doble Queso", "descripcion": "Doble carne y queso", "precio": "7.99", "imagen": "images/doble-queso.jpg" },
+    { "nombre": "BBQ", "descripcion": "Carne con salsa BBQ", "precio": "6.99", "imagen": "images/bbq.jpg" }
+]
